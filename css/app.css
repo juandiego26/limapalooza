@@ -1,0 +1,313 @@
+/*General*/
+body {
+    background-color: #393E46;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+}
+
+/*social section*/
+#social-container {
+    background-color: #384259;
+}
+
+#social-container i{
+    color: #f6e15f;
+    font-size: 1.5rem;
+}
+
+#social-container i:hover{
+    color: #f2f2f2;
+    font-size: 1.5rem;
+}
+
+/* logo section */
+#logo-container .callout{
+    background-color: #F73859;
+    color: #f2f2f2;
+    margin-bottom: 0;
+    border: none;
+}
+
+.logo-text {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*menu nav*/
+#menu-container {
+    background-color: #7AC7C4;
+    font-size: 20px;
+}
+
+#menu-container li a{
+    color:#f2f2f2;
+}
+
+#menu-container li a:hover{
+    color:#f6e15f;
+}
+
+#submenu-container {
+    background-color: #7AC7C4;
+    border: none;
+}
+
+/*menu nav > data-sticky*/
+.data-sticky {
+    z-index: 2;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #f2f2f2 transparent transparent;
+}
+
+/*Menu responsive*/
+#menu-small{
+    color: #f6e15f;
+}
+
+/*ticket section*/
+#tickets-action .callout{
+    background: url("../image/bg-ticket-2.jpg") no-repeat;
+    background-position: bottom; /*posicion de la imagen*/
+    background-size: cover; /*tamaño: que cubra todo el contenedor*/
+    color: #f2f2f2;
+    background-color: #384259;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+}
+
+#tickets-action .callout button{
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+}
+
+#tickets-action .callout button:hover{
+    background-color: #F73859;
+}
+
+/*shows*/
+#shows-action .row{
+    max-width: 100%;
+    margin: 0;
+}
+
+/*shows > sideshows*/
+#sideshows-action{
+    background: url("../image/sideshows.jpg") no-repeat;
+    background-position: bottom; /*posicion de la imagen*/
+    background-size: cover; /*tamaño: que cubra todo el contenedor*/
+    color: #f2f2f2;
+    background-color: #384259;
+    padding: 55px 0;
+    border-right: 1px solid #000;
+    margin-bottom: 0;
+}
+
+#sideshows-action button,
+#hashtag-action button{
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+}
+
+#sideshows-action button:hover{
+    background-color: #444;
+}
+
+/*shows > hashtag*/
+#hashtag-action{
+    background: url("../image/banner-lounge.jpg") no-repeat;
+    background-position: bottom; /*posicion de la imagen*/
+    background-size: cover; /*tamaño: que cubra todo el contenedor*/
+    color: #f2f2f2;
+    background-color: #384259;
+    padding: 55px 0;
+    margin-bottom: 0;
+}
+
+#hashtag-action button:hover{
+    background-color: #444;
+}
+
+/*Lineup*/
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+    background-color: #9F609C;
+    color: #7AC7C4;
+    border: none;
+    outline: none;
+}
+
+#lineup-container {
+    padding: 2em 0;
+}
+
+.tabs-content {
+    border: none;
+}
+
+.tabs-title {
+    display: inline-block;
+    float: none;
+}
+
+#lineup-container .tabs .tabs-title a {
+    font-size: 18px;
+    padding: 1em 1em;
+    color: #f6e15f;
+}
+
+#lineup-container .tabs .tabs-title a:hover {
+    color: #f2f2f2;
+    background-color: #9F609C;
+}
+
+/*lineup > Orbit*/
+.orbit-container {
+    height: auto !important;
+    box-shadow: 5px 10px 10px rgba(68, 68, 68, 0.5);
+    overflow: hidden;
+}
+
+/*Efecto de agrandado de imagenes*/
+.orbit-container img{
+    transition:all .5s ease-out;
+}
+
+.orbit-container img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+/*cierre de efecto*/
+#lineup-container .orbit-container {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+
+/*tickets container*/
+#tickets-container {
+    padding: 2em 0;
+    background-color: #f6e15f;
+    color: #9F609C;
+}
+
+.pricing-table {
+    margin: 5px 0;
+    border: 1px solid #7AC7C4;
+    background-color: #f6e15f;
+}
+
+.pricing-table .title {
+    background-color: #7AC7C4;
+    color: #f2f2f2;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.pricing-table .price {
+    background-color: #7AC7C4;
+    color: #f2f2f2;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+.pricing-table li {
+    border: none;
+    padding: 5px;
+}
+
+.pricing-table .button {
+    background-color: #9F609C;
+    padding: 10px 40px;
+    margin-bottom: 5px;
+}
+
+.pricing-table .button:hover {
+    background-color: rgb(116, 70, 113);
+}
+
+/*suscríbete*/
+#suscribete-container {
+    background-color: #F73859;
+    color: #f2f2f2;
+    padding: 2em 0;
+}
+
+#suscribete-container h4 small{
+    color: #ffcddc;
+}
+
+#suscribete-container .error-container {
+    display: none;
+    color: #f6e15f;
+}
+
+/*Información*/
+#info-container {
+    background-color: #384259;
+    color: #C4EDDE;
+    padding-top: 2em 0;
+    line-height: 0;
+}
+
+#info-container .info-map iframe {
+    width: 100%;
+}
+
+/*MenuOffCanvas*/
+.off-canvas,
+.off-canvas-content {
+    transition: transform 0.1s ease
+}
+
+#offCanvas {
+    background-color: #7AC7C4;
+    border-right: 1px solid #000;
+}
+
+#offCanvas li a {
+    background-color: #7AC7C4;
+    color: #f6e15f;
+}
+
+.drilldown .is-drilldown-submenu-parent > a::after {
+    border-color: transparent transparent transparent #f6e15f;
+}
+
+.drilldown .js-drilldown-back > a::before {
+    border-color: transparent #f6e15f transparent transparent;
+}
+
+/*footer*/
+#footer-container {
+    padding-top: 2em 0;
+}
+
+#footer-container .callout{
+    background-color: #9F609C;
+    margin: 0;
+}
+
+.footer-text {
+    color: #f6e15f;
+}
+
+.footer-text a{
+    color: #7AC7C4;
+}
+/* .row {
+    border: 1px solid red;
+}
+
+.column {
+    border: 1px solid blue;
+} */
